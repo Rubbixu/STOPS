@@ -2,9 +2,11 @@ ppo_clip_ratio = [0.02. 0.2, 0.5]
 lrC = [2.5e-2, 2.5e-3, 2.5e-4]
 lrA = [2.5e-2, 2.5e-3, 2.5e-4]
 
-HalfCheetah [0.2, 2.5e-4, 2.5e-4]
-Walker2d [0.2, 2.5e-3, 2.5e-4]
-Swimmer [0.2, 2.5e-2, 2.5e-4]
-Hopper [0.2, 2.5e-3, 2.5e-4]
-InvertedPendulum [0.2, 2.5e-2, 2.5e-4]
-InvertedDoublePendulum [0.2, 2.5e-2, 2.5e-4]
+
+The following data presented in the form of (ppo_clip_ratio, lrC, lrA):
+HalfCheetah (0.2, 2.5e-4, 2.5e-4)
+Walker2d (0.2, 2.5e-3, 2.5e-4)
+Swimmer (0.2, 2.5e-2, 2.5e-4)
+Hopper (0.2, 2.5e-3, 2.5e-4)
+InvertedPendulum (0.2, 2.5e-2, 2.5e-4)
+InvertedDoublePendulum (0.2, 2.5e-2, 2.5e-4)

@@ -1,4 +1,13 @@
 STOPS-NPG, lam = 1
+
+The following data presented in the form of (delta, lr):
+HalfCheetah (1e-2, 5e-4)
+Walker2d (1e-1, 5e-3)
+Swimmer (1e-2, 5e-3)
+Hopper (1e-2, 1e-2)
+InvertedPendulum (3e-1, 5e-2)
+InvertedDoublePendulum (5e-3, 5e-2)
+
 -first round
 delta = [1, 1e-1, 1e-2,1e-3,1e-4]
 lr = [1e-2, 1e-3, 1e-4]
