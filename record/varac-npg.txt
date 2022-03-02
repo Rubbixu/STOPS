@@ -1,0 +1,9 @@
+delta = [1, 1e-1, 1e-2,1e-3,1e-4]
+lr = [1e-2, 1e-3, 1e-4]
+
+HalfCheetah [1e-2, 1e-4]
+Walker2d [1e-2, 1e-4]
+Swimmer [1e-2, 1e-4]
+Hopper [1e-2, 1e-3]
+InvertedPendulum [1e-2, 1e-4]
+InvertedDoublePendulum [1e-3, 1e-4]

@@ -1,0 +1,50 @@
+STOPS-PPO, lam = 1
+-first round
+ppo_clip_ratio = [0.02, 0.2, 0.5]
+lrA = [2.5e-2, 2.5e-3, 2.5e-4]
+lrC = [2.5e-2, 2.5e-3, 2.5e-4]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+HalfCheetah, best (0.5, 2.5e-4, 2.5e-4)
+-second round
+ppo_clip_ratio = [0.4, 0.5, 0.6]
+lrA = [7.5e-4, 2.5e-4, 7.5e-5]
+lrC = [7.5e-4, 2.5e-4, 7.5e-5]
+2ndBest (3e-2, 2.5e-4)
+-third round
+delta = [4e-2, 3.5e-2, 3e-2, 2.5e-2, 2e-2]
+lr = [2.5e-4, 1e-4, 7e-5]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Walker2d, 1stBest (0.2, 2.5e-3, 2.5e-4)
+-second round
+ppo_clip_ratio = [0.1, 0.2, 0.3]
+lrA = [7.5e-3, 2.5e-3, 7.5e-3]
+lrC = [7.5e-4, 2.5e-4, 7.5e-5]
+2ndBest (1e-1, 5e-3)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Swimmer, 1stBest (0.2, 2.5e-3, 2.5e-3)
+-second round
+delta = [1e-2, 8e-3, 6e-3, 3e-3, 1e-3]:
+lr = [2.5e-2, 1e-2, 7e-3, 2.5e-3, 1e-3, 7e-4, 2.5e-4, 1e-4]
+2ndBest (1e-2, 1e-4)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Hopper, 1stBest (1e-2, 1e-3)
+-second round
+delta = [1e-2, 8e-3, 6e-3, 3e-3, 1e-3]
+lr = [2.5e-2, 1e-2, 7e-3, 2.5e-3, 1e-3, 7e-4]
+2ndBest (8e-3, 2.5e-2)
+-third round
+delta = [9e-3, 8.5e-3, 8e-3, 7.5e-3, 7e-3]
+lr = [3e-2, 2.5e-2, 2e-2]
+3rdBest (8e-3, 3e-2)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+InvertedPendulum, 1stBest  (0.2, 2.5e-2, 2.5e-4)
+-second round
+delta = [1, 8e-1, 6e-1, 3e-1, 1e-1]
+lr = [1e-1, 5e-2, 1e-2, 5e-3, 1e-3, 5e-3, 1e-4]
+2ndbest (3e-1, 5e-2)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+InvertedDoublePendulum, 1stBest (1e-2, 1e-3)
+-second round
+delta = [10, 5, 1, 5e-1, 1e-1, 1e-2]
+lr = [1, 5e-1, 1e-1, 1e-2, 1e-3]
+2ndbest (1e-2, 1e-3)
